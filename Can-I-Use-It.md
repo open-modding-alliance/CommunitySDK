@@ -1,5 +1,5 @@
 # Can I Use It?
-Did you know that a lot of the in-game Lua code can be tested directly in the Giants editor or even directly via the Lua interpreter? 
+Did you know that a lot of the in-game Lua code can be tested directly in the Giants editor or even directly via the stand-alone Lua interpreter? 
 
 However, there are some limitations. E.g. some features are restricted by Giants due to security considerations, and some game specific core Lua functions are simply not available in the native Lua interpreter.
 
@@ -18,7 +18,7 @@ Below is a summary of functions and classes that mihgt be available only in one,
 | What       | In-game | Giants Editor | Lua/LuaJIT |
 |------------|---------|---------------|------------|
 | Class() | Yes | Yes<sup>2</sup> | Yes<sup>2</sup> |
-| io (class) | Partly<sup>3</sup> | Partly<sup>3</sup> | Yes|
+| io | Partly<sup>3</sup> | Partly<sup>3</sup> | Yes|
 | printf() | Yes | Yes<sup>2</sup> | Yes<sup>2</sup> |
 | g_currentModName | Yes | Yes<sup>2</sup> | Yes<sup>2</sup> |
 | g_* tables | Yes | No | No |
@@ -34,3 +34,6 @@ Below is a summary of functions and classes that mihgt be available only in one,
 | delete() | Yes | Yes | Yes<sup>1</sup> |
 | DebugUtil.printTableRecursively() | Yes | ? | Yes<sup>1</sup> |
 | usleep() | Yes | Yes | Yes<sup>1</sup> |
+| os.clock() | getTimeSec() | getTimeSec() | Yes |
+| os.date() | getDate() | getDate() | Yes |
+| createFile() | Yes | Yes | io.open() |
