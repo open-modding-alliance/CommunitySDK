@@ -16,3 +16,5 @@ This is our effort to bridge the gap between the official Giants Developer Netwo
 ## 🧙 **Productivity tips & guides**
 - **Configure your IDE/text editor** - tips and guides to make you more efficient when working with your mods, especially the XML and Lua parts
   - TBD
+- **[Can-I-Use-It?](Can-I-Use-It.md)** _(in-game vs Giants Editor vs Lua stand-alone)_
+    - Table with an overview of the Lua functions and tables that might no be accessible in-game, in Giants Editor or the native Lua interpreter.
