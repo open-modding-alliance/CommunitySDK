@@ -5,14 +5,14 @@ However, there are some limitations. E.g. some features are restricted by Giants
 
 Below is a summary of functions and classes that mihgt be available only in one, two or all three enviroments, sometimes with limited functionality.
 
-**Legend:**
-- Yes: Works directly out-of-the-box
-- Yes<sup>1</sup>: Not natively supported, but works with FS Shim
-- Yes<sup>2</sup>: Not natively supported, but works with FS Stub
-- Partly<sup>3</sup>: Partly supported, with limited functionality
-- No<sup>4</sup>: Not natively supported, but can be included via FS Shim
-- No: Simply means it is not supported at all
-- (*): Replacement/equivivalent function in specificed environment
+**Explanation:**
+- Yes: Supported (unless specified with a number)
+- No: Not natively supported (unless specified with a number)
+- *: Replacement/equivivalent function in specificed environment
+- <sup>1</sup>: Not natively supported, but works with FS Shim
+- <sup>2</sup>: Not natively supported, but works with FS Stub
+- <sup>3</sup>: Partly supported, with limited functionality
+- <sup>4</sup>: Not natively supported, but can be included via FS Shim
 
 
 | What       | In-game | Giants Editor | Lua/LuaJIT |
@@ -37,3 +37,4 @@ Below is a summary of functions and classes that mihgt be available only in one,
 | os.clock() | getTimeSec() | getTimeSec() | Yes |
 | os.date() | getDate() | getDate() | Yes |
 | createFile() | Yes | Yes | io.open() |
+| require() | source()<sup>3</sup> | source()<sup>3</sup> | Yes |
