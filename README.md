@@ -7,7 +7,7 @@ This is our effort to bridge the gap between the official Giants Developer Netwo
 - 🎁 **[Bootstrap Mod](https://github.com/open-modding-alliance/BootstrapMod)** (download)
 
 
-_**Quick links:**_ [🧙 Productivity tips & guides](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-productivity-tips--guides) | [🛠️ Configure your IDE/text editor](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#%EF%B8%8F-configure-your-idetext-editor) | 👨‍💻 [Run Lua code w/o the game](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-run-lua-code-without-starting-the-game) | [🤖 Automation](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-automation)
+_**Quick links:**_ [🧙&nbsp;Productivity tips & guides](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-productivity-tips--guides) | [🛠️&nbsp;Configure your IDE/text editor](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#%EF%B8%8F-configure-your-idetext-editor) | 👨‍💻&nbsp;[Run Lua code w/o the game](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-run-lua-code-without-starting-the-game) | [🤖&nbsp;Automation](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-automation)
 
 
 ## 📚 LUA Reference Library
