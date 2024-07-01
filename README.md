@@ -11,7 +11,7 @@ This is our effort to bridge the gap between the official Giants Developer Netwo
 - FS Lua Explained 
 - Undocumented functions
 - -->
-  - [Script Bindings](ScriptBinding.md) ([download](scriptBinding.lua)) 
+  - [Script Bindings](ScriptBinding.md) ([download](https://raw.githubusercontent.com/open-modding-alliance/CommunitySDK/main/scriptBinding.lua)) 
   - [Can-I-Use-It?](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-can-i-use-it-in-game-vs-giants-editor-vs-lua-stand-alone) _(in-game vs Giants Editor vs Lua stand-alone)_
   - Community KB (how-to/setup)
     - Global Tables

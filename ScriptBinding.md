@@ -3,18 +3,18 @@ In the `sdk\debugger` subfolder of your FS installation you will find a file nam
 
 To make the most out of this XML based documentation we have auto-generated a Lua file which can be used by your text editor to get intellisense suggestions based on this data, like this:
 
-![alt text](OMA_scriptBinding_Intellisense.png)
+![Intellisense documentation](OMA_scriptBinding_Intellisense.png)
 
 ## How to use it
 
-1. Download the [scriptBinding.lua](scriptBinding.lua) file
+1. Download the [scriptBinding.lua](https://raw.githubusercontent.com/open-modding-alliance/CommunitySDK/main/scriptBinding.lua) file
 2. Move the `scriptBinding.lua` file to a suitable location on your drive
    - preferably you have already follow the setup guide and have a location for all your "SDK" files
 3. Configure your Lua language server to use the `scriptBinding.lua`
    - If you followed the guide to setup your text editor for optimal workflow, this step should be automatic since the folder from step 2 in this guide is already configured in the language sever
 4. Profit :)
 
-![alt text](OMA_scriptBinding_Intellisense.gif)
+![Intellisense suggestions](OMA_scriptBinding_Intellisense.gif)
 
 ## Preview the content
 Below is the content generated for FS22 (v1.14):
