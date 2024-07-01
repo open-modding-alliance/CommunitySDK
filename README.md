@@ -12,6 +12,15 @@ This is our effort to bridge the gap between the official Giants Developer Netwo
 - Undocumented functions
 - -->
   - [Script Bindings](ScriptBinding.md) ([download](scriptBinding.lua)) 
+  - [Can-I-Use-It?](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-can-i-use-it-in-game-vs-giants-editor-vs-lua-stand-alone) _(in-game vs Giants Editor vs Lua stand-alone)_
+  - Community KB (how-to/setup)
+    - Global Tables
+    - Global Functions
+    - Known Classes
+  - [Official GDN](https://gdn.giants-software.com/)
+    - [FS LUA API Reference](https://gdn.giants-software.com/documentation_scripting_fs22.php)
+    - [Video tutorials](https://gdn.giants-software.com/videoTutorials2.php)
+  - [XML Schemas](https://validation.gdn.giants-software.com/xml/fs22/1.11.0.0/) (how-to/setup)
 
 
 ## 🧙 **Productivity tips & guides**
