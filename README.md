@@ -100,17 +100,7 @@ The following assumes you completed the previous step of setting up VS Code with
 ![alt text](OMA_SetupLuaLanguageServer.png)
 
 **Note:** if you put all the different files from step 6 above in different subfolders, you can also open this folder as separate project in VS Code which makes it easy to search for functions, tables or files from your "SDK library", e.g:
-```
-mySDK\
-  gameSource\
-    ...
-  communityKB\
-    knownTables.lua
-    knowClasses.lua
-    knownFunctions.lua
-    ...
-  scriptBinding.lua
-```
+![alt text](OMA_LuaLanguageServer_FS22SDK_VSCode1.png) ![alt text](OMA_LuaLanguageServer_FS22SDK_VSCode2.png)
 
 ### 🤖 Automation 
 A great productivity tip is to use automation to streamline tedious tasks, this is a few examples:
