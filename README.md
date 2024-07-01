@@ -159,3 +159,8 @@ A great productivity tip is to use automation to streamline tedious tasks, this 
 5. In VS Code you can allocate keyboard shortcuts to custom commands, e.g. to create your zip or start FS with a specific savegame
 6. Use a AI tool such as Codeium or Copilot to assist you with Lua patterns and examples
    - Note: be aware that FS has a custom (locked-down) Lua implementation which means AI often struggle with more complex questions
+
+#### 🧰 FS Build Tool
+We have created a tool to make the build process easier and less time consuming. In short, it can take care of the automation steps 1-3 in the list above and even be triggered via keyboard shortcuts (see #5).
+
+[Installation instructions for FS Build](https://github.com/open-modding-alliance/FS-Build?tab=readme-ov-file#installation)
