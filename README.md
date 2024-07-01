@@ -1,9 +1,15 @@
 # 📚 Community SDK
 This is our effort to bridge the gap between the official Giants Developer Network and the knowledge spread throughout the FS modding community. Sort of an FS modding knowledgebase and FS LUA Reference Library.
 
+### Recommended resources:
 - ⚙️ **[Script Library](https://github.com/open-modding-alliance/ScriptLibrary)** ([install](https://github.com/open-modding-alliance/ScriptLibrary?tab=readme-ov-file#installation) | documentation)
 - 🧰 **FS Build tool** (install | documentation)
 - 🎁 **[Bootstrap Mod](https://github.com/open-modding-alliance/BootstrapMod)** (download)
+
+
+| Quick links | | |
+|-------------|-|-|
+| [🧙 Productivity tips & guides](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-productivity-tips--guides) | [🛠️ Configure your IDE/text editor](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#%EF%B8%8F-configure-your-idetext-editor) | [🤖 Automation](https://github.com/open-modding-alliance/CommunitySDK?tab=readme-ov-file#-automation) |
 
 
 ## 📚 LUA Reference Library
