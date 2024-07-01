@@ -2,8 +2,8 @@
 This is our effort to bridge the gap between the official Giants Developer Network and the knowledge spread throughout the FS modding community. Sort of an FS modding knowledgebase and FS LUA Reference Library.
 
 ### Recommended resources:
-- ⚙️ **[Script Library](https://github.com/open-modding-alliance/ScriptLibrary)** ([install](https://github.com/open-modding-alliance/ScriptLibrary?tab=readme-ov-file#installation) | documentation)
-- 🧰 **FS Build tool** (install | documentation)
+- ⚙️ **[Script Library](https://github.com/open-modding-alliance/ScriptLibrary)** ([install](https://github.com/open-modding-alliance/ScriptLibrary?tab=readme-ov-file#installation) | [script reference](https://github.com/open-modding-alliance/ScriptLibrary?tab=readme-ov-file#reference) )
+- 🧰 [**FS Build tool**](https://github.com/open-modding-alliance/FS-Build) ([installation instructions](https://github.com/open-modding-alliance/FS-Build?tab=readme-ov-file#installation))
 - 🎁 **[Bootstrap Mod](https://github.com/open-modding-alliance/BootstrapMod)** (download)
 
 
