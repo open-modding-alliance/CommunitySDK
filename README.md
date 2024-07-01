@@ -151,11 +151,11 @@ _**💡** You can open a terminal directly in VS Code (menu `View > Terminal` or
 ### 🤖 Automation 
 A great productivity tip is to use automation to streamline tedious tasks, this is a few examples:
 
-- Automate the process of creating your zip archive using a single command in the terminal
-- Automate the TestRunner tool automatically when building your zip archive
-- Auto-start FS from your code eidtor with a pre-defined savegame that contains your dev/test setup
-- Use a mod to enable you to restart current savegame directly from the game, either via the UI or the developer console
-  - PowerTools provides both UI and console option, PowerTools Developer has the console option and EasyDevControls also provide the console option.
-- In VS Code you can allocate keyboard shortcuts to custom commands, e.g. to create your zip or start FS with a specific savegame
-- Use a AI tool such as Codeium or Copilot to assist you with Lua patterns and examples
-  - Note: be aware that FS has a custom (locked-down) Lua implementation which means AI often struggle with more complex questions
+1. Automate the process of creating your zip archive using a single command in the terminal
+2. Automate the TestRunner tool automatically when building your zip archive
+3. Auto-start FS from your code eidtor with a pre-defined savegame that contains your dev/test setup
+4. Use a mod to enable you to restart current savegame directly from the game, either via the UI or the developer console
+   - PowerTools provides both UI and console option, PowerTools Developer has the console option and EasyDevControls also provide the console option.
+5. In VS Code you can allocate keyboard shortcuts to custom commands, e.g. to create your zip or start FS with a specific savegame
+6. Use a AI tool such as Codeium or Copilot to assist you with Lua patterns and examples
+   - Note: be aware that FS has a custom (locked-down) Lua implementation which means AI often struggle with more complex questions
