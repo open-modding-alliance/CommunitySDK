@@ -40,7 +40,7 @@ Tips and guides to make you more efficient when working with your mods, especial
 
 1. Install a Lua extension to provide intellisense and Lua language support
 2. Install a Lua server extension to get context aware 
-3. If your text editor lack native support for XML, it is recommended to install an XML extension as well
+3. If your text editor lack advanced support for XML, it is recommended to install an XML extension as well
 4. Configure your Lua extension to use Lua 5.1
 5. Configure your language server to read source files from a custom folder, and in this folder you add relevant Lua files containing global tables, classes, script bindings etc what will help the language server understand the FS object model, e.g:
    1. ScriptBindings
@@ -52,6 +52,44 @@ Tips and guides to make you more efficient when working with your mods, especial
 7. If everything is setup properly you should now have intellisense suggesting `g_currentMission` when you type `g_cur`.
 
 By configuring the editor with the right extensions and settings you set yourself up for maximum productivity where you can focus on the creative process.
+
+#### Install recommended VS Code extensions
+The following example assumes you are using VS Code (which we can truly recommend), however the most popular alternative text editor should have similar capabilties. 
+
+Install the following extensions:
+1. ['Lua' language server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
+2. [Lua snippets](https://marketplace.visualstudio.com/items?itemName=keyring.Lua) _[needs to be verified if still needed]_
+3. [Lua for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=gccfeli.vscode-lua) _[needs to be verified if still needed]_
+4. [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+   - Check the XML Schema section for details on how to use this extension optimally
+5. _[optional]_ [Markdown All In One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+6. _[optional]_ [Markdown TODO](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-markdown-todo)
+7. _[optional]_ [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+8. _[optional]_ [FS22 Snippets](https://marketplace.visualstudio.com/items?itemName=FSGModding.fs22-snippets) by FSG Modding
+   - This extension might be redundant if the XML extension and proper XML Schemas is used
+   - Possible (untested) alternative by [Razor Modding Team](https://marketplace.visualstudio.com/items?itemName=RazorModdingTeam.fs22-vscode-snippets)
+
+
+#### Setup the Lua language server extension
+The following assumes you completed the previous step of setting up VS Code with the Lua language server. 
+
+1. Go to Extensions
+2. Find `Lua` (language server from step 1 in the setup extensions guide)
+3. Klick on the gear icon ⚙️
+4. Choose `Extensions Settings`
+5. Search for `Runtime Version` and select `5.1`
+6.  Search for `Workspace Library` and add at least one folder where you will store your custom Lua API reference files. Recommended Lua files to add:
+    - scriptBinding.lua
+    - gameSource (extract the contents of `gameSource.zip` in the `sdk\debugger\` subfolder of your FS installation)
+    - All files from the Community KB
+7. _[optional]_ Search for `Max Preload` and choose a higher number (`5000` seems to work ok without requiring too much memory)
+8. _[optional]_ Search for `Show Params` and enable it
+9. _[optional]_ Search for `Hint`
+   - `Hint: Enable` Enable 
+   - `Hint: Param type` Enable 
+   - `Hint: Set type` Enable 
+10. _[optional]_ Review other extension settings based on your personal preferences
+11. Done
 
 ### 🤖 Automation 
 A great productivity tip is to use automation to streamline tedious tasks, this is a few examples:
