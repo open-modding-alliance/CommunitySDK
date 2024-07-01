@@ -6,11 +6,12 @@ This is our effort to bridge the gap between the official Giants Developer Netwo
 - 🎁 **[Bootstrap Mod](https://github.com/open-modding-alliance/BootstrapMod)** (download)
 
 
-## 📚 **[LUA Reference Library](https://github.com/open-modding-alliance/CommunitySDK)**
-  - Script Bindings
-  - Undocumented functions
-  - Global Tables
-  - Known Classes
+## 📚 LUA Reference Library
+<!-- 
+- FS Lua Explained 
+- Undocumented functions
+- -->
+  - [Script Bindings](ScriptBinding.md) ([download](scriptBinding.lua)) 
 
 
 ## 🧙 **Productivity tips & guides**
