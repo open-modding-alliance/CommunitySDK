@@ -74,6 +74,8 @@ Install the following extensions:
 8. _[optional]_ [FS22 Snippets](https://marketplace.visualstudio.com/items?itemName=FSGModding.fs22-snippets) by FSG Modding
    - This extension might be redundant if the XML extension and proper XML Schemas is used
    - Possible (untested) alternative by [Razor Modding Team](https://marketplace.visualstudio.com/items?itemName=RazorModdingTeam.fs22-vscode-snippets)
+9. _[optional]_ [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+   - Enables execution of selected code directly from VS Code text editor, perfect to test run small snippets
 
 
 #### Setup the Lua language server extension
@@ -101,6 +103,50 @@ The following assumes you completed the previous step of setting up VS Code with
 
 **Note:** if you put all the different files from step 6 above in different subfolders, you can also open this folder as separate project in VS Code which makes it easy to search for functions, tables or files from your "SDK library", e.g:
 ![alt text](OMA_LuaLanguageServer_FS22SDK_VSCode1.png) ![alt text](OMA_LuaLanguageServer_FS22SDK_VSCode2.png)
+
+### 👨‍💻 Run Lua code without starting the game
+Did you know that you can test run your code without starting/reloading the game?
+
+#### 1. Run code in Giants Editor (GE)
+If you open Giants Editor (you don't need to load any i3d file), you can execute directly from the console.
+
+![Open Modding Alliance](OMA_RunCodeFromGE.png)
+
+This is a convinient way of executing Lua code in an enviroment that is similar to the actual game, without the loading time of realoding the game each time you change your script. Just be aware that some functions from the game is not available in GE (at least without additional script), see [Can-I-Use-It?](https://github.com/open-modding-alliance/CommunitySDK/blob/main/Can-I-Use-It.md) for more details.
+
+_**💡** You can also execute script files with the `source()` command, and even better, you can also bind keyboard shortcuts to a script in GE if your are using [Giants Editor - Hotkeys and Macros](https://github.com/w33zl/GE-Hotkeys-and-Macros?tab=readme-ov-file#giants-editor---hotkeys-and-macros-ge-ham)_
+
+_**💡** Did you know that you can also import base game scripts as long as you know the path, e.g `source("dataS/scripts/shared/string.lua")` (note: "data$" is substituted with "dataS"). The path can be found in error messages and in certain resources online._
+
+_**❗** Since source() caches the imported file, you either need to restart GE or change the file name if you make changes to the same file._
+
+
+#### 2. Run code directly in the VS Code text editor
+If you have the VS Code plugin [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) enabled, you can easily execute the selected code directly from the text editor. This is a quick way to test small snippets of code. 
+
+Just bare in mind that the execution is not aware of the context in the file outside the selected text block. I.e. this code would fail if you select and run line 2:
+```lua
+local a = "Hello"
+print(a .. "There") -- The only line selected
+```
+It would be the same as running:
+```lua
+--local a = "Hello"
+print(a .. "There") -- The only line selected
+```
+
+
+#### 3. Run code from the terminal
+In a terminal, run the command `lua`, this will start the Lua interpreter from which you can run commands directly, e.g.:
+```lua
+> print("Hello") 
+Hello
+> 
+```
+
+_**❗** You might have a different Lua version installed than the game uses (5.1), i.e. some commands might behave a bit different._
+
+_**💡** You can open a terminal directly in VS Code (menu `View > Terminal` or keyboard shortcut)_
 
 ### 🤖 Automation 
 A great productivity tip is to use automation to streamline tedious tasks, this is a few examples:
