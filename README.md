@@ -69,7 +69,8 @@ Install the following extensions:
 5. _[optional]_ [Markdown All In One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 6. _[optional]_ [Markdown TODO](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-markdown-todo)
 7. _[optional]_ [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-8. _[optional]_ [FS22 Snippets](https://marketplace.visualstudio.com/items?itemName=FSGModding.fs22-snippets) by FSG Modding
+8. _[optional]_ [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+9. _[optional]_ [FS22 Snippets](https://marketplace.visualstudio.com/items?itemName=FSGModding.fs22-snippets) by FSG Modding
    - This extension might be redundant if the XML extension and proper XML Schemas is used
    - Possible (untested) alternative by [Razor Modding Team](https://marketplace.visualstudio.com/items?itemName=RazorModdingTeam.fs22-vscode-snippets)
 9. _[optional]_ [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
